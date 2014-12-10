@@ -1,0 +1,415 @@
+body, table {
+    font-family:"microsoft yahei";
+}
+tt, code, kbd, samp{
+	    font-family:"microsoft yahei";
+}
+body, table {
+    color: #333333;
+    font-size: 20px;
+}
+h1, h2, h3, h4, strong {
+    color: #000000;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 1em 0;
+}
+input, button, select, textarea, label {
+    font-size: 100%;
+}
+button, input[type="submit"], input[type="button"] {
+}
+textarea, iframe, form {
+    -moz-box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+code, pre, blockquote {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+pre {
+    overflow: auto;
+}
+pre, blockquote {
+    border-radius: 3px 3px 3px 3px;
+    margin: 10px 0;
+    padding: 0.25em 0.5em;
+}
+a, mark, code {
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 -5px;
+    padding: 2px 5px;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    background: none repeat scroll 0 0 gray;
+    color: white;
+}
+mark {
+    background: none repeat scroll 0 0 yellow;
+}
+input:not([type]), input[type="text"], input[type="password"], textarea {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #3E97D1;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) inset;
+}
+button, input[type="button"], input[type="submit"] {
+    background: -moz-linear-gradient(-90deg, #999999 0%, #666666 100%) repeat scroll 0 0 #666666;
+    border: 1px solid #03426A;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 5px 2px #CCCCCC;
+    color: white;
+}
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background: -moz-linear-gradient(-90deg, #65A6D1 0%, #24587A 100%) repeat scroll 0 0 #0A67A3;
+}
+button:active, input[type="button"]:active, input[type="submit"]:active {
+    background: -moz-linear-gradient(-90deg, #24587A 0%, #65A6D1 100%) repeat scroll 0 0 #65A6D1;
+}
+body {
+    background: none repeat scroll 0 0 #F0F0F0;
+    line-height: 1.5;
+    margin: 2em;
+}
+h1 {
+    border-bottom: 8px solid #666666;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}
+h2 {
+    background: none repeat scroll 0 0 #333333;
+    border-bottom-right-radius: 1em;
+    color: #FFFFFF;
+    margin: 0.75em 0;
+    padding: 0.25em 0;
+}
+h2 strong {
+    color: #FFFFFF;
+}
+h2 a {
+    color: #FFFF00;
+}
+h2 a:hover {
+    background: none repeat scroll 0 0 yellow;
+    color: black;
+}
+dt {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+dd {
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    padding: 0.5em 1em;
+}
+ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    margin: 1em 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-color: #006699;
+}
+td, th {
+    border-color: #006699;
+    cursor: default;
+    padding: 5px 10px;
+}
+th {
+    background: none repeat scroll 0 0 #CCEECC;
+}
+tr:nth-child(2n) td {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+tr:hover td {
+    background: none repeat scroll 0 0 #CCFFCC;
+}
+iframe {
+    -moz-box-sizing: border-box;
+    border: 8px solid #CCCCCC;
+    height: 300px;
+    overflow: auto;
+    width: 100%;
+}
+body:after {
+    -moz-box-sizing: border-box;
+    background: -moz-linear-gradient(-90deg, rgba(240, 240, 240, 0) 0%, #F0F0F0 100%) repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "感谢：主题来自 @勾三股四";
+    font-size: 80%;
+    left: 0;
+    padding: 0.5em -1em;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    width: 100%;
+}
+h2 {
+    margin-left: -20px;
+    padding-left: 20px;
+    position: relative;
+}
+h2:after {
+    background: none repeat scroll 0 0 transparent;
+    border-color: gray gray transparent transparent;
+    border-style: solid;
+    border-width: 5px 10px;
+    bottom: -10px;
+    content: " ";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+}
+#wrapper {
+    margin: 100px auto;
+    max-width: 800px;
+    min-width: 600px;
+}
+#logo {
+    border-radius: 3px 3px 3px 3px;
+    height: 90px;
+    vertical-align: -0.3em;
+    width: 90px;
+}
+#search, #nav {
+    margin: 0;
+    position: fixed;
+    top: 0;
+}
+#nav {
+    background: -moz-linear-gradient(-90deg, white 0%,#CCE8CC 100%) repeat scroll 0 0 white;
+    box-shadow: 0 2px 2px silver;
+    left: 0;
+    padding: 10px;
+    right: 0;
+    text-align: left;
+    z-index: 20;
+}
+#search {
+    padding: 5px;
+    right: 0;
+    text-align: right;
+    width: auto;
+    z-index: 21;
+}
+#nav {
+}
+#nav a {
+    margin-left: 3px;
+}
+#nav a:not(:hover) {
+    background: none repeat scroll 0 0 transparent;
+}
+#nav a.current {
+    font-weight: bold;
+}
+.content {
+    margin-left: -20px;
+    margin-right: -20px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.content img {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #CCCCCC;
+    max-width: 90%;
+    padding: 1px;
+}
+.page-navigator {
+    list-style: none outside none;
+    padding: 0;
+}
+.page-navigator li {
+    display: inline-block;
+}
+.page-navigator li a {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
+}
+.page-navigator li a:hover {
+    background: none repeat scroll 0 0 gray;
+}
+.page-navigator li.current a {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: underline;
+}
+#comments > .comment-list {
+    padding-left: 40px;
+}
+.comment-list {
+    list-style: none outside none;
+    margin: 40px 0;
+    padding: 0;
+}
+.comment-body {
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 40px;
+    position: relative;
+}
+.comment-body > p {
+    clear: both;
+}
+.comment-author {
+    float: left;
+    padding-bottom: 10px;
+    position: relative;
+}
+.comment-author cite {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+.comment-author img {
+    background: none repeat scroll 0 0 white;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 3px 2px #666666;
+    display: block;
+    height: 64px;
+    left: -76px;
+    position: absolute;
+    top: -8px;
+    width: 64px;
+}
+.comment-meta {
+    float: right;
+    font-size: 16px;
+}
+.respond label {
+    display: inline-block;
+    min-width: 120px;
+}
+.respond input[type="text"] {
+    display: inline-block;
+    min-width: 200px;
+}
+#sidebar {
+    margin: 20px auto 40px;
+    overflow: hidden;
+}
+#sidebar .widget {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin: 0 1% 20px;
+    width: 31.3%;
+}
+#sidebar .large {
+    width: 64.6%;
+}
+#sidebar .widget h3 {
+    margin: 20px;
+}
+#wrapper {
+    padding-right: 480px;
+    position: relative;
+}
+#sidebar {
+    position: absolute;
+    right: 0;
+    top: 160px;
+    width: 460px;
+}
+#sidebar .widget {
+    width: 48%;
+}
+#sidebar .large {
+    width: 98%;
+}
+#wrapper {
+    padding-right: 280px;
+    position: relative;
+}
+#sidebar {
+    position: absolute;
+    right: 0;
+    top: 160px;
+    width: 260px;
+}
+#sidebar .widget, #sidebar .large {
+    width: 98%;
+}
+/*
+body {
+    font-size: 14px;
+}
+*/
+#wrapper {
+    min-width: 300px;
+    width: 100%;
+}
+#sidebar .widget {
+    width: 48%;
+}
+#sidebar .large {
+    width: 98%;
+}
+#logo {
+    height: 45px;
+    width: 45px;
+}
+/*
+body {
+    font-size: 14px;
+}
+*/
+#wrapper {
+    min-width: 0;
+    width: 100%;
+}
+#sidebar .widget, #sidebar .large {
+    width: 98%;
+}
+#top_btn, .weibo_btn, .check_false {
+    /*
+    height: 50px;
+    margin: 5px 30px 20px 0;
+    overflow: hidden;
+    position: static;
+    width: 50px;
+    float: right;
+    */
+
+    bottom: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    right: 30px;
+    width: 50px;
+    z-index: 99;
+}
+
+#top_btn .toplink {
+    background: url("http://i1.sinaimg.cn/qc/2013/0308/news_zxh_content_btn_bg.png") no-repeat scroll 7px -110px transparent;
+    display: block;
+    height: 50px;
+    opacity: 0.35;
+    text-indent: -999em;
+    width: 50px;
+}
+
+#top_btn .toplink:hover {
+    opacity: 0.5;
+}
+
+
+
+
